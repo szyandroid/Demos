@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    tools:context="com.szy.demos.ui.activity.TimeCheckActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_DatePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="时间选择DatePicker" />
+
+        <Button
+            android:id="@+id/btn_TimePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="时间选择TimePicker" />
+
+        <Button
+            android:id="@+id/btn_time_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="时间选择" />
+        <Button
+            android:id="@+id/btn_time_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="时间选择(AndroidPicker)" />
+    </LinearLayout>
+</ScrollView>

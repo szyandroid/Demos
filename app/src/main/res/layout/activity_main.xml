@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    tools:context="com.szy.demos.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_project"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="项目框架"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_mvp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MVP"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_android6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android6.0适配"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_retrofit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="retrofit"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_multi_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="多布局"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_xBanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="xBanner"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_eventBus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EventBus"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_fastJson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="fastJson"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_volley"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volley"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_tabwidget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="切换卡TabWidget"
+            android:textAllCaps="false"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_bdMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="百度地图"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_http_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="网络请求（1_base）"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_http_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="网络请求（2_manger）"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="多布局"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fragment切换"
+            android:textAllCaps="false"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_time_check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="时间选择器"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="版本更新"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+</ScrollView>
