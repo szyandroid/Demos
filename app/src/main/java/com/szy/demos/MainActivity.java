@@ -140,5 +140,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
         btn_volley.setOnClickListener(this);
         findViewById(R.id.btn_time_check).setOnClickListener(this);
         findViewById(R.id.btn_update).setOnClickListener(this);
+
     }
 }
