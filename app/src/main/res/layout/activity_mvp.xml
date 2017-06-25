@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.szy.demos.ui.activity.mvp.BaiduMapActivity">
+    <include
+        android:id="@+id/title"
+        layout="@layout/common_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <com.baidu.mapapi.map.MapView
+            android:id="@+id/bmap_View"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:clickable="true" />
+
+        <ImageView
+            android:id="@+id/bmap_local_myself"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="18dp"
+            android:layout_marginRight="18dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/bd_dingwei_y" />
+
+        <ImageView
+            android:id="@+id/bmap_center_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/bd_dingwei" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/bmap_listview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="1"
+        android:descendantFocusability="blocksDescendants"
+        android:divider="#efefef"
+        android:dividerHeight="1dp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/bmap_refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="正在刷新......"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="20dp"
+        android:visibility="gone" />
+</LinearLayout>
