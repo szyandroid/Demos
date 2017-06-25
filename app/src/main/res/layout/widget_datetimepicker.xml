@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aigestudio="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/wheellayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <com.szy.demos.view.WheelPicker
+        android:id="@+id/daywheel"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        aigestudio:wheel_atmospheric="false"
+        aigestudio:wheel_curtain="false"
+        aigestudio:wheel_curtain_color="#333333"
+        aigestudio:wheel_curved="false"
+        aigestudio:wheel_cyclic="true"
+        aigestudio:wheel_indicator="true"
+        aigestudio:wheel_indicator_color="#dfe3eb"
+        aigestudio:wheel_indicator_size="1dip"
+        aigestudio:wheel_item_align="center"
+        aigestudio:wheel_item_space="30dip"
+        aigestudio:wheel_item_text_color="#a6a6a6"
+        aigestudio:wheel_item_text_size="16sp"
+        aigestudio:wheel_same_width="true"
+        aigestudio:wheel_selected_item_text_color="#333333"
+        aigestudio:wheel_visible_item_count="3" />
+
+    <View
+        android:id="@+id/paddingHour"
+        android:layout_width="10dip"
+        android:layout_height="1dip" />
+
+    <com.szy.demos.view.WheelPicker
+        android:id="@+id/hourwheel"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        aigestudio:wheel_atmospheric="false"
+        aigestudio:wheel_curtain="false"
+        aigestudio:wheel_curtain_color="#333333"
+        aigestudio:wheel_curved="false"
+        aigestudio:wheel_cyclic="true"
+        aigestudio:wheel_indicator="true"
+        aigestudio:wheel_indicator_color="#dfe3eb"
+        aigestudio:wheel_indicator_size="1dip"
+        aigestudio:wheel_item_align="center"
+        aigestudio:wheel_item_space="30dip"
+        aigestudio:wheel_item_text_color="#a6a6a6"
+        aigestudio:wheel_item_text_size="16sp"
+        aigestudio:wheel_selected_item_text_color="#333333"
+        aigestudio:wheel_visible_item_count="3" />
+
+    <View
+        android:id="@+id/paddingMinute"
+        android:layout_width="10dip"
+        android:layout_height="1dip" />
+
+    <com.szy.demos.view.WheelPicker
+        android:id="@+id/minutewheel"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        aigestudio:wheel_atmospheric="false"
+        aigestudio:wheel_curtain="false"
+        aigestudio:wheel_curtain_color="#333333"
+        aigestudio:wheel_curved="false"
+        aigestudio:wheel_cyclic="true"
+        aigestudio:wheel_indicator="true"
+        aigestudio:wheel_indicator_color="#dfe3eb"
+        aigestudio:wheel_indicator_size="1dip"
+        aigestudio:wheel_item_align="center"
+        aigestudio:wheel_item_space="30dip"
+        aigestudio:wheel_item_text_color="#a6a6a6"
+        aigestudio:wheel_item_text_size="16sp"
+        aigestudio:wheel_selected_item_text_color="#333333"
+        aigestudio:wheel_visible_item_count="3" />
+</LinearLayout>
+
