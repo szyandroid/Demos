@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="bg_edittext" type="PLAIN_TEXT" />
+      <mapping ext="lic" type="PLAIN_TEXT" />
       <mapping ext="so" type="PLAIN_TEXT" />
       <mapping ext="enc" type="PLAIN_TEXT" />
       <removed_mapping ext="so" type="UNKNOWN" />
